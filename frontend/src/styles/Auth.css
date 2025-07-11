@@ -1,0 +1,143 @@
+/* Unified Glassmorphism Auth UI */
+.auth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  padding: 2rem;
+  color: white;
+  position: relative;
+}
+
+.auth-box {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 25px;
+  padding: 3rem;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  text-align: center;
+  position: relative;
+}
+
+.auth-box h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.auth-box p {
+  color: #aaa;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.auth-form input {
+  padding: 0.9rem 1rem;
+  background-color: rgba(255, 255, 255, 0.08);
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.auth-form input:focus {
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid #00c6ff;
+}
+
+.auth-form button {
+  padding: 0.9rem;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.auth-form button:hover {
+  background: linear-gradient(135deg, #0072ff, #00c6ff);
+  transform: translateY(-2px);
+}
+
+.error-msg {
+  color: #ff6b6b;
+  font-size: 0.9rem;
+  margin-top: -0.5rem;
+  margin-bottom: -0.5rem;
+}
+
+.auth-switch {
+  margin-top: 1.2rem;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+.auth-switch span,
+.auth-switch a {
+  color: #00c6ff;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.auth-switch span:hover,
+.auth-switch a:hover {
+  text-decoration: underline;
+}
+
+/* Chatbot icon */
+.chatbot-icon {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: float 3s ease-in-out infinite;
+  box-shadow: 0 0 15px rgba(0, 198, 255, 0.3);
+}
+
+.chatbot-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateX(-50%) translateY(-5px);
+  }
+  50% {
+    transform: translateX(-50%) translateY(5px);
+  }
+}
+
+.auth-box h2 {
+  font-size: 2rem;
+  margin-bottom: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
