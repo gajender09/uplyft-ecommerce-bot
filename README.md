@@ -10,9 +10,11 @@ A full-stack AI-powered chatbot built using React and Flask for the Uplyft Full 
 A detailed report outlining the project’s objectives, architecture, features, challenges, and learnings is available in the repository.  
 🔗 [View Project Report (PDF)](https://drive.google.com/file/d/1UythfdJz0b0TJ6TqL_sUdy6xb44iqoVP/view?usp=sharing)
 
-### YouTube Presentation
-A video walkthrough of the project, showcasing the chatbot’s functionality and UI, is available on YouTube.  
-🔗 [Watch Presentation](https://youtu.be/ed_i5urW9bs)
+### 🎥 YouTube Presentation
+
+[![Watch the video](https://img.youtube.com/vi/ed_i5urW9bs/hqdefault.jpg)](https://youtu.be/ed_i5urW9bs)
+
+A video walkthrough of the project, showcasing the chatbot’s functionality and UI.
 
 ## 🚀 Project Overview
 
