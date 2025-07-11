@@ -4,6 +4,16 @@ A full-stack AI-powered chatbot built using React and Flask for the Uplyft Full 
 
 ---
 
+## Project Report & Presentation
+
+### Project Report
+A detailed report outlining the project’s objectives, architecture, features, challenges, and learnings is available in the repository.  
+🔗 [View Project Report (PDF)](https://drive.google.com/file/d/1UythfdJz0b0TJ6TqL_sUdy6xb44iqoVP/view?usp=sharing)
+
+### YouTube Presentation
+A video walkthrough of the project, showcasing the chatbot’s functionality and UI, is available on YouTube.  
+🔗 [Watch Presentation](https://youtu.be/ed_i5urW9bs)
+
 ## 🚀 Project Overview
 
 This project simulates an e-commerce chatbot interface with smart product responses and history retention using a Flask + React stack. Users can log in, ask product-related queries in natural language, view suggestions, and download past conversations.
